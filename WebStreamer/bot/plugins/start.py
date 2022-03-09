@@ -18,13 +18,13 @@ START_TEXT = """
 <i><b>🍃 Mantenido por :</b>@Mistreamgo</i>"""
 
 HELP_TEXT = """
-<i>- Sᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ꜰʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.</i>
-<i>- I ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴇxᴛᴇʀɴᴀʟ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ !.</i>
-<i>- Aᴅᴅ Mᴇ ɪɴ ʏᴏᴜʀ Cʜᴀɴɴᴇʟ Fᴏʀ Dɪʀᴇᴄᴛ Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋs Bᴜᴛᴛᴏɴ</i>
-<i>- Tʜɪs Pᴇʀᴍᴇᴀɴᴛ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ</i>\n
+<i>- Solo enviame un video/archivo.</i>
+<i>- Yo me encargare de generar un enlace para descargar o hacer streaming del video !.</i>
+<i>- Puedes enviar tantos archivos como desees, sin abusar del bot.</i>
+<i>- El enlace puede durar meses, dias, o horas.</i>\n
 <u>🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸</u>\n
-<b>🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.</b>\n
-<i>Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ (ᴏʀ) ʀᴇᴘᴏʀᴛ ʙᴜɢꜱ</i> <b>: <a href='https://t.me/Avishkarpatil'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
+<b>🔞 El enviar contenido pornografico/violento/menores o cualquier contenido enfermiso dara como resultado la supension de tu cuenta de forma permanente.</b>\n
+<i>Contactame si tienes dudas</i> <b>: <a href='https://t.me/Mistreamgo'>[ ᴄʟɪᴄᴋ ʜᴇʀᴇ ]</a></b>"""
 
 ABOUT_TEXT = """
 <b>⚜ Mʏ ɴᴀᴍᴇ : FileStreamX</b>\n
