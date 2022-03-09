@@ -90,7 +90,7 @@ async def private_receive_handler(c: Client, m: Message):
             parse_mode="HTML", 
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Descarga ahora 📥", url=stream_link),
-                                               [InlineKeyboardButton("Descarga ahora 📥", url=http://mistream.rf.gd/video.php?url=stream_link&t=file_name)]]),
+                                                InlineKeyboardButton("Descarga ahora 📥", url=http://mistream.rf.gd/video.php?url=stream_link&t=file_name)]]),
             quote=True
         )
     except FloodWait as e:
