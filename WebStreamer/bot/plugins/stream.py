@@ -81,7 +81,7 @@ async def private_receive_handler(c: Client, m: Message):
 <b>📂 Nombre de archivo :</b> <i>{}</i>\n
 <b>📦 Peso de archivo :</b> <i>{}</i>\n
 <b>📥 Descarga :</b> <i>{}</i>\n
-<b>🚸 Nota, este enlace es permanete no caduca.</b>\n
+<b>🚸 Nota, este enlace no tiempo tiempo de expiracion, pero aun asi puede dejar de funcionar en cualquier momento.</b>\n
 <i>© @Mistreamgo </i>"""
 
         await log_msg.reply_text(text=f"**Solicitador por :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
