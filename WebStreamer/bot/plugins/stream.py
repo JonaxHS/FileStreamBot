@@ -89,8 +89,8 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode="HTML", 
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Ver Online (PC recomendado) 📥", url=f"http://mistream.rf.gd/video.php?u={stream_link}&t={file_name}"),
-                                               InlineKeyboardButton("Ver en android", url=f"http://mistream.rf.gd/android.php?u={stream_link}")]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Ver Online (PC recomendado) 📥", url=f"https://mistream.rf.gd/video.php?u={stream_link}&t={file_name}"),
+                                               InlineKeyboardButton("Ver en android", url=f"https://mistream.rf.gd/android.php?u={stream_link}")]]),
             quote=True
         )
     except FloodWait as e:
