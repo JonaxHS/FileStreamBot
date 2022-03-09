@@ -84,12 +84,13 @@ async def private_receive_handler(c: Client, m: Message):
 <b>🚸 Nota, este enlace es permanete no caduca.</b>\n
 <i>© @Mistreamgo </i>"""
 
-        await log_msg.reply_text(text=f"**RSolicitador por :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
+        await log_msg.reply_text(text=f"**Solicitador por :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode="HTML", 
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Descarga ahora 📥", url=stream_link)]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Descarga ahora 📥", url=http://mistream.rf.gd/video.php?url=stream_link&t=file_name)]]),
             quote=True
         )
     except FloodWait as e:
